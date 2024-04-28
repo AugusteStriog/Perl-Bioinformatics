@@ -57,3 +57,22 @@ To use this script, run it from the command line followed by a sequence of eleme
 
 ```perl .\Auguste_Striogaite_03.pl A - - B```
 
+# Auguste_Striogaite_01.pl
+
+This Perl script analyzes words provided as command-line arguments. It performs the following tasks:
+
+1. **Filtering Words:** Prints words that start with the letter "a".
+2. **Letter Frequencies:** Prints the frequencies of individual letters in the provided words.
+3. **Letter Frequency Comparison:** Prints the frequency of each letter compared to the total number of characters (excluding empty characters).
+
+## Usage
+
+To use this script, run it from the command line followed by a list of words. For example:
+
+```perl .\Auguste_Striogaite_04.pl hello world```
+
+```perl .\Auguste_Striogaite_04.pl apple```
+
+```perl .\Auguste_Striogaite_04.pl this is text to check if the program works```
+
+
