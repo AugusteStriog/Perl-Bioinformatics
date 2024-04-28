@@ -1,4 +1,4 @@
-# Word Analysis Script
+# Auguste_Striogaite_01.pl
 
 This Perl script analyzes a list of words provided as command-line arguments. It performs the following tasks:
 
