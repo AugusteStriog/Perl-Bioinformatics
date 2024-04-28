@@ -57,7 +57,7 @@ To use this script, run it from the command line followed by a sequence of eleme
 
 ```perl .\Auguste_Striogaite_03.pl A - - B```
 
-# Auguste_Striogaite_01.pl
+# Auguste_Striogaite_04.pl
 
 This Perl script analyzes words provided as command-line arguments. It performs the following tasks:
 
