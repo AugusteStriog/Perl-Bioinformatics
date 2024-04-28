@@ -50,7 +50,10 @@ This Perl script implements operations on a circular linked list. It performs th
 To use this script, run it from the command line followed by a sequence of elements and commands. Elements are inserted into the list, and commands specify movements within the list. For example:
 
 ```perl .\Auguste_Striogaite_03.pl 1 2 3 + 4 5 - 6```
+
 ```perl .\Auguste_Striogaite_03.pl 1 2 3 4```
+
 ```perl .\Auguste_Striogaite_03.pl A D - B C + E```
+
 ```perl .\Auguste_Striogaite_03.pl A - - B```
 
