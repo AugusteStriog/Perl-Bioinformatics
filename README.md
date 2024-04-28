@@ -75,7 +75,7 @@ To use this script, run it from the command line followed by a list of words. Fo
 
 ```perl .\Auguste_Striogaite_04.pl this is text to check if the program works```
 
-# Auguste_Striogaite_04.pl
+# Auguste_Striogaite_05.pl
 
 This Perl script performs file operations based on command-line arguments and options. It handles multiplication and addition of numbers in corresponding lines of input files. The behavior depends on whether the `--scalar` option is provided or not.
 
