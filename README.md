@@ -18,7 +18,7 @@ To use this script, run it from the command line followed by a list of words sep
 
 ```perl .\Auguste_Striogaite_01.pl this is text to check if the program works```
 
-# Auguste_Striogaite_01.pl
+# Auguste_Striogaite_02.pl
 
 This Perl script sorts a list of numbers using the bubble sort algorithm. It performs the following tasks:
 
@@ -32,5 +32,16 @@ To use this script, run it from the command line followed by a list of numbers s
 ```perl .\Auguste_Striogaite_02.pl 3 -5 1 0 -2```
 
 ```perl .\Auguste_Striogaite_02.pl 3 -5 1 0 -22 10 5```
+
+# Circular Linked List Operations
+
+This Perl script implements operations on a circular linked list. It performs the following tasks:
+
+1. **Print List:** Prints the circular linked list starting from the initial element.
+2. **Move Pointer:** Allows moving the pointer clockwise or counterclockwise within the list.
+
+## Usage
+
+To use this script, run it from the command line followed by a sequence of elements and commands. Elements are inserted into the list, and commands specify movements within the list. For example:
 
 
