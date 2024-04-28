@@ -15,5 +15,6 @@ To use this script, run it from the command line followed by a list of words sep
 ```perl .\Auguste_Striogaite_01.pl hello world ```
 
 ```perl .\Auguste_Striogaite_01.pl hi world world```
+
 ```perl .\Auguste_Striogaite_01.pl this is text to check if the program works```
 
