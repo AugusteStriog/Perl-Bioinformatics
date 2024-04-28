@@ -18,3 +18,19 @@ To use this script, run it from the command line followed by a list of words sep
 
 ```perl .\Auguste_Striogaite_01.pl this is text to check if the program works```
 
+# Auguste_Striogaite_01.pl
+
+This Perl script sorts a list of numbers using the bubble sort algorithm. It performs the following tasks:
+
+1. **Sorting Negative Numbers:** Prints negative numbers in the same order as they were provided.
+2. **Sorting Non-Negative Numbers:** Sorts non-negative numbers in ascending order using the bubble sort algorithm.
+
+## Usage
+
+To use this script, run it from the command line followed by a list of numbers separated by spaces. For example:
+
+```perl .\Auguste_Striogaite_02.pl 3 -5 1 0 -2```
+
+```perl .\Auguste_Striogaite_02.pl 3 -5 1 0 -22 10 5```
+
+
