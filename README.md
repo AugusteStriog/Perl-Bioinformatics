@@ -33,6 +33,11 @@ To use this script, run it from the command line followed by a list of numbers s
 
 ```perl .\Auguste_Striogaite_02.pl 3 -5 1 0 -22 10 5```
 
+
+## Auguste_Striogaite_03.pl
+
+To use this script, run it from the command line followed by a sequence of elements and commands. Elements are inserted into the list, and commands specify movements within the list. For example:
+
 # Circular Linked List Operations
 
 This Perl script implements operations on a circular linked list. It performs the following tasks:
@@ -43,5 +48,7 @@ This Perl script implements operations on a circular linked list. It performs th
 ## Usage
 
 To use this script, run it from the command line followed by a sequence of elements and commands. Elements are inserted into the list, and commands specify movements within the list. For example:
+
+```perl .\Auguste_Striogaite_03.pl 1 2 3 + 4 5 - 6```
 
 
