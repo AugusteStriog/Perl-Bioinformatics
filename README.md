@@ -75,4 +75,44 @@ To use this script, run it from the command line followed by a list of words. Fo
 
 ```perl .\Auguste_Striogaite_04.pl this is text to check if the program works```
 
+# Auguste_Striogaite_04.pl
+
+This Perl script performs file operations based on command-line arguments and options. It handles multiplication and addition of numbers in corresponding lines of input files. The behavior depends on whether the `--scalar` option is provided or not.
+
+
+- `--scalar`: If provided, the program multiplies and adds the numbers in the corresponding lines of two files.
+- `file1`, `file2`, `file3`, ...: Input files containing numbers.
+
+## Functionality
+
+The script provides the following functionality:
+
+1. **Multiplication without `--scalar`:** If the `--scalar` option is not provided, the program multiplies the numbers in the corresponding lines of the files and outputs each product on a separate line.
+
+2. **Multiplication and Addition with `--scalar`:** If the `--scalar` option is provided, the program multiplies and adds the numbers in the corresponding lines of two files.
+
+## Error Handling
+
+The program handles and reports the following error situations:
+
+- No file is specified in the output.
+- The specified file cannot be read.
+- The numbers in the lines of the specified files differ.
+- If the `--scalar` option is given, less or more than two files are specified.
+
+## Usage
+
+To use this script:
+
+Go to the correct order:
+
+```cd 5```
+
+```perl .\Auguste_Striogaite_05.pl numbers.lst```
+
+```perl .\Auguste_Striogaite_05.pl numbers.lst .\numbers.lst```
+
+```perl Auguste_Striogaite_05.pl --scalar numbers.lst numbers.lst```
+
+
 
