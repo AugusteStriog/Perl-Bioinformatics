@@ -1,8 +1,8 @@
-#This program counts how many words are written, 
-#prints words in reverse order, 
-#prints every other word, 
-#counts the frequency of words and finds the longest words
 #!/usr/bin/perl
+#This program counts how many words are written,
+#prints words in reverse order,
+#prints every other word,
+#counts the frequency of words and finds the longest words
 
 use strict;
 use warnings;
@@ -31,25 +31,24 @@ print "\n";
 
 #counts the frequency of words
 my %frequency;
-for (my $i=0; $i<@ARGV; $i++){
 
-    my $word=$ARGV[$i];
+foreach my $word (@ARGV){
+
     $frequency{$word}++;
-   
+
 }
-for (my $i=0; $i<@ARGV; $i++){
-     my $word=$ARGV[$i];
+foreach my $word (@ARGV){
+  
     if (defined $frequency{$word}){
-        print "$word $frequency{$word} \n";
+        print "$word $frequency{$word}\n";
         delete $frequency{$word};
     }
-    }
+}
 
 #finds the longest words
 my @longest;
 my $words_length=0;
-for (my $i=0; $i < @ARGV; $i++){
-    my $words=$ARGV[$i];
+for my $words (@ARGV){
     my $length=length($words);
     if ($length>$words_length){
         @longest=$words;
